@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form > input{
+    width: 200px;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20%;
+    background: #007BEF;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+form > input:hover{
+    transform: scale(0.98);
+    background-color: blue;
+}
