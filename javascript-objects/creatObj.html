@@ -5,23 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creating an OBJ</title>
-</head>
-<body>
-    
     <script type="text/javascript">
         function person(name, age){
             this.name = name;
             this.age = age;
         }
 
-        let saidali = new person("saidali zikirillaev", 19);
+//         let saidali = new person("saidali zikirillaev", 19);
         let ali = new person("ali zokirov", 20);
+        
+        // saidali = {name:"saidali", age:19};
+        js = {name:"javascript", birth: 1995};
+
+        let saidali = {
+            name: "saidali",
+            age: 19,
+            from: "Uzbekistan"
+        }
     </script>
-</body>
+</head>
+<body>
+    
     <script type="text/javascript">
     document.write(saidali.name);
     document.write(ali.age);
-    
-
+    document.write(saidali.name + " loves " + js.name + " because, ...")
     </script>
+    
+</body>
 </html>
