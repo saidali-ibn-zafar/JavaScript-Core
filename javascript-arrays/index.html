@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Arrays</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        let people = new Array("jack","white","sam","anna");
+        console.log(people[0]); // jack
+        console.log(people[1]); // white
+        console.log(people[9]); // undefined
+
+
+        // other ways to create array;
+        let things = new Array(3);
+
+        things[0] = 'pen';
+        things[1] = 'pencil';
+        things[2] = 'book';
+        
+        console.log(things[2]);
+
+
+
+        let stuff = new Array();
+
+        let x = 9;
+        let y = 65 - 45;
+
+        stuff[0] = 'apple';
+        stuff[1] = 'pumkin';
+
+        console.log(stuff[1]);
+
+        // Array Properties and Methods
+        let friends = new Array('said', 'ali', 'khon');
+        let boys = new Array("babur", "alisher");
+
+        console.log(friends.length);
+        
+        let team = friends.concat(boys);
+        console.log(team);
+
+
+        //Join and Pop methods
+    </script>
+
+    
+    
+</body>
+</html>
