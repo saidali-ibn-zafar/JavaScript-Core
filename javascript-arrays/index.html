@@ -66,6 +66,34 @@
         let string2 = bp.join();
         console.log(string2);
 
+
+        // add array elements using a loops
+        let ask = prompt("Enter your name: ", "");
+        document.write("hello " + ask);
+
+        let myArr = new Array(3);
+
+        for (i = 0; i < 3; i++){
+            myArr[i] = prompt("add to theh arr: ", "");
+        }
+
+        console.log(myArr[0] + myArr[1] + myArr[2]);
+
+
+        // cool technique to print array elements 
+        let stuff1 = new Array("me", "you", "we", "they");
+        stuff1.sort();
+
+        for (i = 0; i < stuff1.length; i++){
+            console.log(stuff1[i]);
+        }
+
+        // assciative arrays
+        let arr = new Array();
+        arr['color']  = 'blue';
+        arr['food'] = 'pilaw';
+
+        console.log('My favourite food is ' + arr['food']);
     </script>
 
     
