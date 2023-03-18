@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects more</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        // // Math Objects
+        // console.log(Math.PI);
+
+        // let n = prompt("enter a number: ", "");
+        // let answer = Math.sqrt(n);
+        // console.log(answer);
+
+        // // Data objects
+        // function doSmth(){
+        //     console.log("CONSOLE");
+        // }
+        // setInterval("doSmth()", 1000);
+
+
+        // simple project
+        function printTime(){
+            let now = new Date();
+            let hours = now.getHours();
+            let mins = now.getMinutes();
+            let seconds = now.getSeconds();
+            document.write(hours + ":" + mins + ":" + seconds + "<br />");
+        }
+        setInterval("printTime()", 1000);
+
+    </script>
+</body>
+</html>
