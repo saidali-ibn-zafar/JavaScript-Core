@@ -114,3 +114,55 @@ console.log(100 + "100"); //"100100"
 // ATTENTION
 // welcomeEl.innerHTML = welcomeEl.innerText  + "EMOJI";
 // or welcomeEl.innerHTML += "EMOJI";
+
+
+
+
+// String vs Number
+
+let myPoints = 3;
+
+function add3Points(){
+        myPoints += 3;
+}
+
+function remove1Points(){
+        myPoints -= 1;
+}
+
+add3Points();
+add3Points();
+add3Points();
+remove1Points();
+remove1Points();
+console.log(myPoints);
+
+
+
+
+// blackjeck Game 
+let firstCard = 20;
+let secondCard = 9;
+
+let sum = firstCard + secondCard;
+
+if(sum < 21){
+        console.log("do you want to draw a card?");
+}
+else if(sum === 21){
+        console.log("winner");
+}
+else if(sum > 21){
+        console.log("out")
+}
+
+
+
+let age = 22;
+
+if (age <= 21){
+        console.log("you cannnot enter teh club");
+}
+else {
+        console.log("Welcome");
+}
