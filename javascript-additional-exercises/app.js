@@ -166,3 +166,62 @@ if (age <= 21){
 else {
         console.log("Welcome");
 }
+
+
+
+// Array methods
+let myArray = [1,2];
+
+myArray.push(3); // 3 was added to the myArray array;
+console.log(myArray);
+
+myArray.pop(); //it removes the last element from myArray;
+console.log(myArray);
+
+//PUSH - add the last element to myArray
+//POP - remove the last element from myArray
+
+
+
+// MATH methods
+Math.random(); // between 0.000 and 0.999;
+Math.random() * 6; // between 0.000 and 5.999; answers should be 0,1,2,3,4,5
+
+Math.floor(1.99); // result is 1, make it down ....;
+
+// for starting from 1, we need to add 1 like below:
+Math.floor(Math.random() * 6) + 1;
+
+
+// OBJECT 
+// object - store data in-depth - composite/ complex data type 
+// key value pairs
+let course = {
+        title: "Learn CSS Grid for Free",
+        lessons: 16,
+        creator: "Saidali Zikirillaev",
+        length:63,
+        level: 2,
+        isFree: true,
+        tags: ["html", "css"]
+}
+
+console.log(course.tags[1]);
+
+
+// UNSHIFT and SHIFT
+
+// shift - remove the first item from the beginning of the array
+// unshift - add the item to the beginning of the array
+
+largeCountries = ["Tuvalu", "India", "USA", "Indonesia", "Monaco"];
+
+largeCountries.pop();
+largeCountries.push("Pakistan");
+
+console.log(largeCountries);
+
+largeCountries.shift();
+largeCountries.unshift("China");
+
+console.log(largeCountries);
