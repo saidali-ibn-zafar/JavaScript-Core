@@ -225,3 +225,29 @@ largeCountries.shift();
 largeCountries.unshift("China");
 
 console.log(largeCountries);
+
+
+
+const arr1 = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'];
+        let arr2;
+        (function(){
+            arr2 = [...arr1];
+            arr1[0] = 'Potato';
+        })();
+        console.log(arr2);
+        
+        
+        // import and export
+        // we have 2 files called index.js and stringFunction.js
+        // and now : 
+            // in stringFunction: 
+                // export const capitalizeString = str => str.toUpperCase();
+            // in index.js
+                // import { capitalizeString } from "./stringFunction";
+                // const cap = capitalizeString("hello");
+
+                // console.log(cap);
+
+        // !!!!!!!!!
+        // importing everything : 
+            // import * as capitalizedString from "capitalizedString";
