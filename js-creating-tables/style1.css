@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tableContainer{
+  width: 94%;
+  border-collapse: collapse;
+  transition: all .4s ease-in-out;
+  margin-top: 3vh;
+}
+
+#tableContainer:hover{
+  transform: scale(1.001);
+}
+
+#tableContainer th {
+  text-align: center;
+  background-color: #327a81;
+  color: white;
+}
+
+#tableContainer tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+  
+#tableContainer tr:hover {
+  background-color: #ddd;
+}
+
+#tableContainer td, #tableContainer th {
+  border: 1px solid #ddd;
+  padding: 6px 8px;
+  text-align: center;
+}
+
+
+
+/* start of input container  */
+
+#inputContainer {
+  width: 94%;
+  display: flex;
+  margin-top: 4vh;
+  }
+
+#inputContainer input{
+  width: 55%;
+  height: 5vh;
+  outline: none;
+  font-size: 24px;
+  border-radius: 15px 0px 0px 4px;
+  border: 2px solid #327a81;
+  transition: all .4s ease-in-out;
+  
+}
+
+#inputContainer input::after::before{
+  box-sizing: border-box;
+}
+
+#inputContainer input:focus{
+  background: #f2f2f2
+}
+
+#inputContainer button{
+  width: 10%;
+  border-radius: 0px 4px 15px 0px;
+  background: #327a81;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+}
+
+#inputContainer button:hover{
+  background: #3f969e;
+  cursor: pointer;
+}
+
+#inputContainer div{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+  border: 2px solid #327a81;
+  padding: 0 2% 0 2%;
+  border-radius: 5px;
+}
+
+#inputContainer span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+  background: #327a81;
+  padding: 0 2% 0 2%;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #000;
+  user-select: none;
+
+}
+
+#inputContainer span:hover{
+  background-color: #3f969e;
+  cursor: pointer;
+}
+
+
+
+.newClass{
+  display: table-row;
+}
+
+/* end of input container  */
